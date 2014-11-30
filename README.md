@@ -6,12 +6,15 @@ I due vettori hanno la stessa lunghezza.
 Ogni elemento di un vettore è un numero intero.
 
 I vettori sono passati al programma con la sintassi:
+               
                 "{NUMERO1, NUMERO2, NUMERO3}"
 
 Nota: le virgolette servono a rendere tutta la stringa come un unico argomento, altrimenti avremmo:
+                
                 argv[1] = {NUMERO1,  ed argv[2] = NUMERO2, ecc.
 
 Invece con le virgolette abbiamo:
+                
                 argv[1] è "{NUMERO1, NUMERO2, NUMERO3}
 
 ci possono essere un numero di spazi arbitrari prima o dopo le parentesi graffe e intorno alle virgole.
@@ -23,6 +26,7 @@ Esempio passaggio di vettori al programma:
 Il programma deve eseguire il prodotto scalare tra i due vettori.
 
 Nell’esempio di prima:
+                
                 1*4 + 21 * 0 + 3*10 + 4*4 = 50
 
 Attenzione: Il main deve ritornare il risultato* (oltre a fare la printf del risultato)

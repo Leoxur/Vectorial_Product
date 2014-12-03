@@ -1,4 +1,4 @@
-Scalar_Product
+Vectorial_Product
 ==============
 
 Accetti come argomento due vettori da minimo 1 e massimo 10 elementi ciascuno. 
@@ -33,12 +33,14 @@ Attenzione: Il main deve ritornare il risultato* (oltre a fare la printf del ris
 
 Nell’esempio di prima:
 
-      return 50
+                return 50
 
 Quindi, terminato il programma, se lanciamo da shell il comando per farci stampare l’ultimo return code:
-echo $?
 
-deve apparire il valore 50
+               echo $?
+
+deve apparire il valore 
+               50
 
 Nota: gli exit code sono di un byte, quindi return 300 corrisponde a 44 a causa dell’overflow (300%256 = 44).
 http://tldp.org/LDP/abs/html/exitcodes.html

@@ -7,7 +7,7 @@
 
 
 /* Prototipi */
-int conversione (int termine[], char *string);
+int parser (int termine[], char *string);
 int prodotto (int termine1[], int termine2[]);
 
 
